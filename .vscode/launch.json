@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run on Pybricks",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pybricksdev",
+            "args": ["run", "ble", "${file}", "-n", "John"], // replace "John" with your robot's name
+            "python": "${workspaceFolder}/venv/bin/python",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
