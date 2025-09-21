@@ -9,7 +9,10 @@
             "args": ["run", "ble", "${file}", "-n", "John"], // replace "John" with your robot's name
             "python": "${workspaceFolder}/venv/bin/python",
             "cwd": "${workspaceFolder}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "windows": {
+                "python": "${workspaceFolder}\\venv\\Scripts\\python.exe"
+            }
         }
     ]
 }
